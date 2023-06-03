@@ -1,5 +1,8 @@
 databaseChangeLog:
   - include:
+      file: schemas/create_schema.sql
+      relativeToChangeLogFile: true
+  - include:
       file: tables/files.sql
       relativeToChangelogFile: true
   - include:
